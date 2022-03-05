@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("tr:odd").css("background-color","yellow");
+            $("tr:even").css("background-color","orange");
+            $("#p1").css("background-color","brown");
+            $("#p2").css("background-color","green");
+            $("#name").css("background-color","magenta");
+            $("#password").css("background-color","blue");
+
+        });
+    </script>
+    <title>Jquery</title>
+</head>
+<body>
+    <table border="4">
+        <tr>
+            <th>No.</th>
+            <th>Name</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>sahil</td>
+            <td>sahil@yahoo.com</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>paras</td>
+            <td>paras@yahoo.com</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>sahil malik</td>
+            <td>sahilmalik@yahoo.com</td>
+        </tr>
+    </table>
+    <p id="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere reprehenderit perferendis quod ration
+        e veritatis minima accusantium harum quas magnam. Vel facilis, commodi magni accusamus cumque tempore earum ducimus harum laudantium!</p>
+        <p>this is another paragraph</p>
+        <p id="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure reprehenderit qui cum molestiae non o
+            ptio vero aliquam ipsa sapiente. Cumque sapiente quasi, quo provident voluptate pariatur tenetur exercitationem laborum dicta?</p>
+            <form action="Name">
+                Name<input type="text" id="name">
+                password<input type="password" id="password">
+            </form>
+    </body>
+</html>

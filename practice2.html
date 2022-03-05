@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+$("#div1").hover(function(){
+$("#div1").css("background-color","yellow");
+$("#div1").css("width","100%");
+$("#div1").css("height","100%");
+});
+$("#div1").mouseleave(function(){
+$("#div1").css("background-color","green")
+});
+});
+</script>
+<title>Jquery</title>
+</head>
+<body>
+<h1>Jquery Event</h1>
+<div id="div1">
+<p>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam sed ipsum culpa earum vel. Aliquam deleniti cupiditate eos quibusdam obcaecati pariatur. Laborum rem id ex assumenda quas ullam numquam ipsa?
+</p>
+</div>
+</body>
+</html>
